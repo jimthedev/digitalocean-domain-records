@@ -1,6 +1,6 @@
 {
   "name": "digitalocean-domain-records",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Manage Digital Ocean domain records from the command line",
   "main": "index.js",
   "scripts": {
