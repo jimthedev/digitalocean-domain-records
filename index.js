@@ -1,7 +1,6 @@
-var argv = require('yargs')
-    .usage('Usage: $0 --name [string]')
-    .demand(['name'])
-    .argv;
+#!/usr/bin/env node
+var argv = require('yargs').usage('Usage: $0 --name [string]').demand(['name']).argv;
+
 require('dotenv').config();
 
 var pageSize = 50;
