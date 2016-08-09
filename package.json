@@ -1,14 +1,17 @@
 {
-  "name": "dns-creator",
+  "name": "digitalocean-domain-records",
   "version": "1.0.0",
-  "description": "",
+  "description": "Manage Digital Ocean domain records from the command line",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "digitalocean-domain-records": "./index.js"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "do-wrapper": "^3.9.0",
     "dotenv": "^2.0.0",
